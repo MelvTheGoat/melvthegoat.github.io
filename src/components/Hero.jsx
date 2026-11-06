@@ -63,7 +63,6 @@ export default function Hero() {
           onMouseEnter={e => e.target.style.color = 'var(--text-zinc-500)'}
           onMouseLeave={e => e.target.style.color = 'var(--text-zinc-400)'}
         >
-          @MelvTheGoat
         </a>
 
         <p className="font-['Figtree'] text-[.85rem] font-semibold underline underline-offset-4" style={{ color: 'var(--text-primary)', textDecorationColor: 'var(--border-subtle)' }}>
