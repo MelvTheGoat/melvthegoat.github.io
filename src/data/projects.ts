@@ -1,4 +1,8 @@
 import type { Project } from '../types'
+import fraudImg from '../assets/fraud.jpg'
+import reckonImg from '../assets/reckon.jpg'
+import creditImg from '../assets/credit.jpg'
+import ragImg from '../assets/rag.jpg'
 
 export const projects: Project[] = [
   {
@@ -9,6 +13,7 @@ export const projects: Project[] = [
     github: 'https://github.com/MelvTheGoat/Fraud-Detection-With-Sequence-Models',
     live: 'https://fraud-scoring.onrender.com',
     label: 'FRAUD DETECTION',
+    image: fraudImg,
     stats: '0.870',
     statLabel: 'PR-AUC, GRU vs 0.826 LightGBM',
     features: [
@@ -25,6 +30,7 @@ export const projects: Project[] = [
     github: 'https://github.com/MelvTheGoat/Stack',
     live: 'https://stack-production-d2a4.up.railway.app/review',
     label: 'PAYMENTS',
+    image: reckonImg,
     stats: '76.1%',
     statLabel: 'auto-closed at 100% precision',
     features: [
@@ -41,6 +47,7 @@ export const projects: Project[] = [
     github: 'https://github.com/MelvTheGoat/Credit-Risk-Decisioning',
     live: 'https://credit-risk-decisioning-702657773047.europe-west1.run.app/',
     label: 'CREDIT RISK',
+    image: creditImg,
     stats: '0.838',
     statLabel: 'out-of-time AUC, ECE 0.026',
     features: [
@@ -57,6 +64,7 @@ export const projects: Project[] = [
     github: 'https://github.com/MelvTheGoat',
     live: 'https://nigerian-fintech-regulation-assistant-474115007874.europe-west1.run.app',
     label: 'COMPLIANCE RAG',
+    image: ragImg,
     stats: '0.96',
     statLabel: 'recall@5',
     features: [
