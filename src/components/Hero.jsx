@@ -21,7 +21,7 @@ const btnStyle = {
 }
 
 const BIO =
-  "Hi, I'm Oluwatobi Mayungbo 👋\nI build time-series and sequence models for fraud detection and payments, with calibrated outputs and cost-based decision thresholds.\nMy flagship project is a Sequence-Based Transaction Fraud Detection System, where a GRU beat a strong LightGBM baseline and held up after adversarial drift.\nI also teach machine learning at SQI College of ICT."
+  "Hi, I'm Oluwatobi Mayungbo 👋\nI build time-series and sequence models for fraud detection and payments, with calibrated outputs and cost-based decision thresholds."
 
 export default function Hero() {
   const highlight = (text, words) => {
@@ -51,7 +51,7 @@ export default function Hero() {
         className="flex flex-col gap-[6px] text-left"
       >
         <h1 className="font-['Figtree'] font-bold text-[1.5rem] leading-tight" style={{ color: 'var(--text-primary)' }}>
-          Oluwatobi Melvyn Mayungbo <span className="inline-block">✨</span>
+          Oluwatobi Melvyn Mayungbo <span className="inline-block"></span>
         </h1>
 
         <a
